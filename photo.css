@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+
+.nav-bar li{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 5%;
+    border-bottom: 3px solid black ;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-bar{
+    list-style: none;
+}
+
+
+
+.nav-bar a:link{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.nav-bar a:visited{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.nav-bar a:hover{
+    color: #F0c330;
+    transition: 0.5s;
+}
+
+
+
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+
+.showcase{
+    height: 600px;
+    width: 1600px;
+    margin: 80px 0px 0px 70px;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+.showcase a{
+    display: inline-block;
+    margin: 0px 0px 80px 70px;
+    
+}
+
+div .appname{
+    font-family:"PT Sans" ;
+    transform: rotate(90deg);
+    height: 40px;
+    font-size: 32px;
+    
+    
+}
+
+div #rectangle{
+  height: 584px ;
+  width: 8px;
+  background-color: #F85FFE;
+  
+}
+
+.appname:link{
+    color: #000000; 
+    text-decoration: none
+
+}
+.appname:visited{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.appname:hover{
+    color: #F85FFE;
+    transition: 0.5s;
+}
+
+
+.instagram{
+    
+    height: 700px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    margin: 100px 100px 0px 0px;
+    
+    
+    
+
+}
