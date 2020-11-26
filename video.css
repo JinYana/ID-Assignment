@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+
+.nav-bar li{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 5%;
+    border-bottom: 3px solid black ;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-bar{
+    list-style: none;
+}
+
+
+
+.nav-bar a:link{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.nav-bar a:visited{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.nav-bar a:hover{
+    color: #F0c330;
+    transition: 0.5s;
+}
+
+
+
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+
+main{
+    margin: 40px 0px 0px 100px;
+
+}
+main iframe{
+    margin: 0px 60px 0px 0px;
+}
+
+#rectangle1{
+    height: 8px ;
+    width: 820px;
+    background-color: #F52F2F;
+    margin: 20px;
+}
+
+.channelname{
+
+    font-family:"PT Sans" ;
+    height: 40px;
+    width: 135px;
+    font-size: 32px;
+   
+}
+
+#rectangle2{
+    height: 8px ;
+    width: 820px;
+    background-color: #F52F2F;
+    margin: 20px;
+}
+
+.header{
+    margin: 110px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.channelname:link{
+    color: #000000; 
+    text-decoration: none
+
+}
+.channelname:visited{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.channelname:hover{
+    color: #F52F2F;
+    transition: 0.5s;
+}
+
