@@ -72,6 +72,7 @@ main{
 }
 main iframe{
     margin: 0px 60px 0px 0px;
+    border: 8px double rgb(31, 31, 31)
 }
 
 #rectangle1{
@@ -119,4 +120,108 @@ main iframe{
     color: #F52F2F;
     transition: 0.5s;
 }
+@media only screen and (max-width:620px) {
 
+
+    /* For mobile phones: */
+
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 3px solid black ;
+        width: 375px;
+        height: 120px;
+        
+        
+    }
+
+    header a{
+        width: 100%;
+        height: auto;
+        width: 200px;
+        margin-bottom:  10px ;
+
+        
+    }
+
+    .nav-bar{
+        width: 300px;
+    }
+
+    .social-media{
+        display: flex;
+        justify-content: space-between;
+        width: 375px;
+        align-items: center;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .nav-bar li{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        display: inline-block;
+        padding: 0px 20px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        
+    }
+
+    main{
+        margin: 40px 0px 0px 0px;
+    
+    }
+
+    main iframe{
+        margin: 0px 0px 30px 0px;
+        width: 375px;
+        height: 200px;
+        border: 10px double rgb(31, 31, 31)
+    }
+
+    .header{
+        margin: 30px;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:1440px) and (min-width: 1300px){
+
+    main iframe{
+        margin: 30px 30px 0px 0px;
+        width: 600px;
+        height: 400px;
+        align-items: center;
+        border: 10px double rgb(31, 31, 31)
+    }
+
+    .header{
+        margin: 130px;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:1024px) and (min-width:999px) {
+    main iframe{
+        align-items: center;
+        margin: 100px 20px 0px 0px;
+        width: 400px;
+        height: 300px;
+        border: 10px double rgb(31, 31, 31)
+    }
+
+    .header{
+        margin: 130px;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -66,21 +66,24 @@ header{
     width: 150px;
 }
 
-h1{
+.tour-info h1{
+    display: inline-block;
     font-family: "Big Shoulders Stencil Display";
     font-size: 50px;
+    margin: 50px 0px 0px 250px;
+    padding: 50px;
     background-color: transparent;
-    
 }
 
 
-.tour-info {
+.tour-info p{
     display: inline-block;
     font-family: "Anton";
     font-size: 30px;
     margin: 50px 0px 0px 250px;
     padding: 50px;
     background-color: transparent;
+    
 }
 
 .bg-image{
@@ -105,22 +108,14 @@ h1{
     left: 10%;
     z-index: 2;
     width: 80%;
-    padding: 20px;
+    padding: 20px; 
     text-align: center;
     background-color: rgba(0, 0, 0, 0.774);
 }
 
-.ticket{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 100px;
-      float: right;
-      margin: 285px 500px 0px 0px;
-      height: 475px;
-      
-    }
-.ticket button{
+
+main .ticket{
+    display: inline;
     font-size: 16px;
     height: 30px;
     width: 150px;
@@ -131,6 +126,182 @@ h1{
     border: 2px solid #000000;
     border-radius: 4px ;
     font-family: "Josefin Slab";
+    
 
 }
+#button1{
+    margin: 0px 0px 0px 700px;
+}
 
+#button2{
+    margin: 0px 0px 0px 580px;
+}
+
+#button3{
+    margin: 0px 0px 0px 580px;
+}
+
+#button4{
+    margin: 0px 0px 0px 493px;
+}
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 3px solid black ;
+        width: 375px;
+        height: 120px;
+        
+        
+    }
+
+    header a{
+        width: 100%;
+        height: auto;
+        width: 200px;
+        margin-bottom:  10px ;
+
+        
+    }
+
+    .nav-bar{
+        width: 300px;
+    }
+
+    .social-media{
+        display: flex;
+        justify-content: space-between;
+        width: 375px;
+        align-items: center;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .nav-bar li{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        display: inline-block;
+        padding: 0px 20px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        
+    }
+
+
+
+    .tour-info p {
+        display: inline-block;
+        font-family: "Anton";
+        font-size: 30px;
+        background-color: transparent;
+        width: 320px;
+        
+        margin: auto;
+        
+    }
+
+    .tour-info h1{
+        display: inline-block;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        margin: auto;
+        padding: 50px;
+        background-color: transparent;
+        width: 320;
+    }
+
+
+
+    main .ticket{
+        display: block;
+        font-size: 16px;
+        height: 30px;
+        width: 150px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: white; 
+        color: black; 
+        border: 2px solid #000000;
+        border-radius: 4px ;
+        font-family: "Josefin Slab";
+        
+        
+        
+        
+    }
+
+    #button1{
+        margin: auto;
+    }
+    
+    #button2{
+        margin: auto;
+    }
+    
+    #button3{
+        margin: auto;
+    }
+    
+    #button4{
+        margin: auto;
+    }
+
+
+    
+    
+
+
+  
+}
+
+
+@media only screen and (max-width:1440px) and (min-width: 1300px){
+
+    #button1{
+        margin: 0px 0px 0px 400px;
+    }
+    
+    #button2{
+        margin: 0px 0px 0px 283px;
+    }
+    
+    #button3{
+        margin: 0px 0px 0px 283px;
+    }
+    
+    #button4{
+        margin: 0px 0px 0px 195px;
+        
+    }
+
+}   
+
+
+@media only screen and (max-width:1024px) and (min-width:999px) {
+
+    
+
+    .tour-info h1{
+        display: inline-block;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        margin: 50px 0px 0px 100px;
+        padding: 50px;
+        background-color: transparent;
+    }
+    
+    
+    .tour-info p{
+        display: inline-block;
+        font-family: "Anton";
+        font-size: 30px;
+        margin: 50px 0px 0px 100px;
+        padding: 50px;
+        background-color: transparent;
+    }
+}

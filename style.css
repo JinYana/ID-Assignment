@@ -76,6 +76,7 @@ header{
     background-color: black;
     padding: 228px 120px;
     
+    
 
 }
 
@@ -83,26 +84,281 @@ header{
     float: right;
     margin: 30px 40px 0px 0px;
     margin-bottom: -5px;
+    max-width: 100%;
+    
     
 
 }
 
-.intro p{
+main p{
     font-size: 20px;
     width: 800px;
     font-family: "Raleway";
     text-align: center;
-    margin: 40px auto auto auto;
+   
+    
 
 }
 
-.intro h2{
-    display:inline-block;
+main h2{
     font-size: 25px;
-    width: 300px;
-    height: 10px;
+    width: 110px;
+    height: 30px;
     font-family: "Raleway";
-    margin: 20px auto auto auto;
+    margin: 30px;
+    
+    
     
 
+}
+
+main{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-items: center;
+    height: 200px;
+    width: 1878px;
+}
+
+@media only screen and (max-width:620px) and (max-width:620px) {
+    /* For mobile phones: */
+
+
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 3px solid black ;
+        width: 375px;
+        height: 120px;
+        
+        
+    }
+
+    header a{
+        width: 100%;
+        height: auto;
+        width: 200px;
+        margin-bottom:  10px ;
+
+        
+    }
+
+    .nav-bar{
+        width: 300px;
+    }
+
+    .social-media{
+        display: flex;
+        justify-content: space-between;
+        width: 375px;
+        align-items: center;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .nav-bar li{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        display: inline-block;
+        padding: 0px 20px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 3px solid black ;
+        width: 320px;
+        height: 120px;
+        
+    }
+
+    .intro h1{
+    
+        color: white;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        float: left;
+        margin: 30px 0px 0px 0px;
+        background-color: black;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .intro a{
+        content: url(https://i.imgur.com/CgtJAEE.jpg) !important;
+        margin: auto;
+        width: 100%;
+        height: auto;
+        
+        
+        
+    
+    }
+
+    main p{
+        font-size: 15px;
+        width: 300px;
+        font-family: "Raleway";
+        text-align: center;
+        margin-bottom: 30px ;
+       
+        
+    
+    }
+    
+    main h2{
+        font-size: 20px;
+        width: 90px;
+        height: 30px;
+        font-family: "Raleway";
+        margin: 30px;
+        
+        
+        
+    
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-items: center;
+        height: 200px;
+        width: 320px;
+    }
+
+  
+
+
+    
+        
+
+
+}
+
+@media only screen and (max-width:1440px) and (min-width: 1300px){
+    .intro h1{
+    
+        color: white;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        float: left;
+        margin:  20px 0px 0px 20px ;
+        background-color: black;
+        padding: 198px 90px;
+        text-align: center;
+    }
+
+    .intro a{
+        
+        content: url(https://i.imgur.com/ZYk36ca.jpg) !important;
+       
+        width: 800px;
+        height: 455px;
+        margin: 20px 20px 0px 0px;
+        
+    
+    }
+    main p{
+        font-size: 15px;
+        width: 300px;
+        font-family: "Raleway";
+        text-align: center;
+        margin-bottom: 30px ;
+       
+        
+    
+    }
+    
+    main h2{
+        font-size: 20px;
+        width: 90px;
+        height: 30px;
+        font-family: "Raleway";
+        margin: 30px;
+        
+        
+        
+    
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-items: center;
+        height: 270px;
+        width: 1440px;
+        
+        
+        
+    }
+
+    @media only screen and (max-width:1024px) and (min-width:999px) {
+        .intro h1{
+        
+            color: white;
+            font-family: "Big Shoulders Stencil Display";
+            font-size: 50px;
+            float: left;
+            margin:  110px 0px 0px 20px ;
+            background-color: black;
+            padding: 125px 10px;
+            text-align: center;
+        }
+    
+        .intro a{
+            
+            content: url(https://i.imgur.com/ZYk36ca.jpg) !important;
+           
+            width: 550px;
+            height: auto;
+            margin: 110px 20px 0px 0px;
+            
+        
+        }
+        main p{
+            font-size: 15px;
+            width: 400px;
+            font-family: "Raleway";
+            text-align: center;
+            margin-bottom: 30px ;
+           
+            
+        
+        }
+        
+        main h2{
+            font-size: 20px;
+            width: 90px;
+            height: 30px;
+            font-family: "Raleway";
+            margin: 30px;
+            
+            
+            
+        
+        }
+        
+        main{
+            margin: 30px 0px 0px 0px;
+            display: flex;
+            flex-direction: column ;
+            align-items: center;
+            justify-items: center;
+            height: 270px;
+            width: 1024px;
+            
+            
+            
+            
+        }
+}
 }
