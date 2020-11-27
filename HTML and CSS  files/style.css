@@ -1,0 +1,1048 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+
+/*navigation bar*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+
+.nav-bar li{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 5%;
+    border-bottom: 3px solid black ;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-bar{
+    list-style: none;
+}
+
+
+
+.nav-bar a:link{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.nav-bar a:visited{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.nav-bar a:hover{
+    color: #F0c330;
+    transition: 0.5s;
+}
+
+
+
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+
+/*Introduction*/
+
+.intro h1{
+    
+    color: white;
+    font-family: "Big Shoulders Stencil Display";
+    font-size: 70px;
+    float: left;
+    margin: 30px 0px 0px 40px;
+    background-color: black;
+    padding: 228px 120px;
+    
+    
+
+}
+
+.intro a{
+    float: right;
+    margin: 30px 40px 0px 0px;
+    margin-bottom: -5px;
+    max-width: 100%;
+    
+    
+
+}
+
+main p{
+    font-size: 20px;
+    width: 800px;
+    font-family: "Raleway";
+    text-align: center;
+   
+    
+
+}
+
+main h2{
+    font-size: 25px;
+    width: 110px;
+    height: 30px;
+    font-family: "Raleway";
+    margin: 30px;
+    
+    
+    
+
+}
+
+main{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-items: center;
+    height: 200px;
+    width: 1878px;
+}
+
+/*Tours*/
+.tour-info h1{
+    display: inline-block;
+    font-family: "Big Shoulders Stencil Display";
+    font-size: 50px;
+    margin: 50px 0px 0px 250px;
+    padding: 50px;
+    background-color: transparent;
+}
+
+
+.tour-info p{
+    display: inline-block;
+    font-family: "Anton";
+    font-size: 30px;
+    margin: 50px 0px 0px 250px;
+    padding: 50px;
+    background-color: transparent;
+    
+}
+
+.bg-image{
+    background-image: url(https://i.imgur.com/87vNA7g.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    filter: blur(4px);
+  
+    
+    
+}
+
+.bg-text {
+    background-color: rgba(0, 0, 0, 0.37); 
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway";
+    font-size: 30px;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 2;
+    width: 80%;
+    padding: 20px; 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+
+.tour-info .ticket{
+    display: inline;
+    font-size: 16px;
+    height: 30px;
+    width: 150px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000000;
+    border-radius: 4px ;
+    font-family: "Josefin Slab";
+    
+
+}
+#button1{
+    margin: 0px 0px 0px 700px;
+}
+
+#button2{
+    margin: 0px 0px 0px 580px;
+}
+
+#button3{
+    margin: 0px 0px 0px 580px;
+}
+
+#button4{
+    margin: 0px 0px 0px 493px;
+}
+
+/* Photos*/
+
+.showcase{
+    height: 600px;
+    width: 1600px;
+    margin: 80px 0px 0px 70px;
+    
+}
+
+.showcase a{
+    display: inline-block;
+    margin: 0px 0px 80px 70px;
+
+    
+    
+}
+
+div .appname{
+    font-family:"PT Sans" ;
+    transform: rotate(90deg);
+    height: 40px;
+    font-size: 32px;
+    
+    
+}
+
+div #rectangle{
+  height: 584px ;
+  width: 8px;
+  background-color: #F85FFE;
+  
+}
+
+.appname:link{
+    color: #000000; 
+    text-decoration: none
+
+}
+.appname:visited{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.appname:hover{
+    color: #F85FFE;
+    transition: 0.5s;
+}
+
+
+.instagram{
+    
+    height: 700px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    margin: 100px 100px 0px 0px;
+    
+    
+    
+
+}
+
+
+/*Videos*/
+.embed{
+    margin: 40px 0px 0px 100px;
+
+}
+.embed iframe{
+    margin: 0px 60px 0px 0px;
+    border: 8px double rgb(31, 31, 31)
+}
+
+#rectangle1{
+    height: 8px ;
+    width: 820px;
+    background-color: #F52F2F;
+    margin: 20px;
+}
+
+.channelname{
+
+    font-family:"PT Sans" ;
+    height: 40px;
+    width: 135px;
+    font-size: 32px;
+   
+}
+
+#rectangle2{
+    height: 8px ;
+    width: 820px;
+    background-color: #F52F2F;
+    margin: 20px;
+}
+
+.header{
+    margin: 110px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.channelname:link{
+    color: #000000; 
+    text-decoration: none
+
+}
+.channelname:visited{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.channelname:hover{
+    color: #F52F2F;
+    transition: 0.5s;
+}
+
+/*Merchandise*/
+
+.banner h1{
+    font-family: "Big Shoulders Stencil Display";
+
+    font-size: 60px;
+    width: 400;
+    height: auto;
+    background-color: black;
+    padding: 150px 190px;;
+    color: white;
+}
+
+
+.banner p{
+    font-family: "Big Shoulders Stencil Display";
+
+    font-size: 60px;
+    width: 400;
+    height: auto;
+    background-color: black;
+    padding: 150px 136px;;
+    color: white;
+}
+
+.banner{
+
+    display: flex;
+    width: 1879px;
+    height: auto;
+    align-items: center;
+    border-bottom: 8px double black;
+    
+}
+
+.allshop p{
+    font-family: "Raleway";
+    width: 300px;
+    text-align: center;
+    
+}
+
+.allshop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.allshop button{
+    width: 125px;
+    height: 30px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    font-family: "Big Shoulders Stencil Display";
+    border: 2px solid #000000;
+    border-radius: 4px ;
+    cursor: pointer;
+    margin-top: 20px;
+    
+    
+}
+
+.allshop div{
+    display: flex ;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+
+
+    /*navigation bar*/
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 3px solid black ;
+        width: 375px;
+        height: 120px;
+        
+        
+    }
+
+    header a{
+        width: 100%;
+        height: auto;
+        width: 200px;
+        margin-bottom:  10px ;
+
+        
+    }
+
+    .nav-bar{
+        width: 300px;
+    }
+
+    .social-media{
+        display: flex;
+        justify-content: space-between;
+        width: 375px;
+        align-items: center;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .nav-bar li{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        display: inline-block;
+        padding: 0px 20px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        
+    }
+
+    /*Introduction*/
+
+    .intro h1{
+    
+        color: white;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        float: left;
+        margin: 30px 0px 0px 0px;
+        background-color: black;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .intro a{
+        content: url(https://i.imgur.com/CgtJAEE.jpg) !important;
+        margin: auto;
+        width: 100%;
+        height: auto;
+        
+        
+        
+    
+    }
+
+    main p{
+        font-size: 15px;
+        width: 300px;
+        font-family: "Raleway";
+        text-align: center;
+        margin-bottom: 30px ;
+       
+        
+    
+    }
+    
+    main h2{
+        font-size: 20px;
+        width: 90px;
+        height: 30px;
+        font-family: "Raleway";
+        margin: 30px;
+        
+        
+        
+    
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-items: center;
+        height: 200px;
+        width: 320px;
+    }
+
+
+
+    /*Tours*/
+    .tour-info p {
+        display: inline-block;
+        font-family: "Anton";
+        font-size: 30px;
+        background-color: transparent;
+        width: 320px;
+        
+        margin: auto;
+        
+    }
+
+    .tour-info h1{
+        display: inline-block;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        margin: auto;
+        padding: 50px;
+        background-color: transparent;
+        width: 320;
+    }
+
+
+
+    .tour-info .ticket{
+        display: block;
+        font-size: 16px;
+        height: 30px;
+        width: 150px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: white; 
+        color: black; 
+        border: 2px solid #000000;
+        border-radius: 4px ;
+        font-family: "Josefin Slab";
+        
+        
+        
+        
+    }
+
+    #button1{
+        margin: auto;
+    }
+    
+    #button2{
+        margin: auto;
+    }
+    
+    #button3{
+        margin: auto;
+    }
+    
+    #button4{
+        margin: auto;
+    }
+
+
+    /*Photos*/
+    .showcase{
+        display: flex;
+        height: 852px;
+        width: 375px;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+
+    .showcase .image1{
+        content: url(https://i.imgur.com/O5jiNoZ.jpg) !important;
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+
+    }
+
+    .showcase .image2{
+        content: url(https://i.imgur.com/ApN6FWo.png) !important;
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+    }
+
+    .showcase .image3{
+        content: url(https://i.imgur.com/4qqUvKK.jpg) !important;
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+    }
+
+    .showcase .image4{
+        content: url(https://i.imgur.com/YPxMMoE.jpg) !important;
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+    }
+
+    .showcase .image5{
+        content: url(https://i.imgur.com/Rbr6lBK.jpg) !important;
+        
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+    }
+
+    .showcase .image6{
+        content: url(https://i.imgur.com/Tn0duV7.jpg) !important;
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+    }
+    
+    div .appname{
+        font-family:"PT Sans" ;
+        transform: rotate(0deg);
+        height: 40px;
+        font-size: 32px;
+        
+        
+    }
+    
+    div #rectangle{
+      height: 8px ;
+      width: 1500px;
+      background-color: #F85FFE;
+      
+    }
+    
+    .appname:link{
+        color: #000000; 
+        text-decoration: none
+    
+    }
+    .appname:visited{
+        color: #000000; 
+        text-decoration: none
+    
+    }
+    
+    .appname:hover{
+        color: #F85FFE;
+        transition: 0.5s;
+    }
+    
+    
+    .instagram{
+        margin: auto;
+        height: 100px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /*Videos*/
+    .embed{
+        margin: 40px 0px 0px 0px;
+    
+    }
+
+    .embed iframe{
+        margin: 0px 0px 30px 0px;
+        width: 375px;
+        height: 200px;
+        border: 10px double rgb(31, 31, 31)
+    }
+
+    .header{
+        margin: 30px;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+    }
+
+    /*Merchandise*/
+
+    .banner h1{
+        font-family: "Big Shoulders Stencil Display";
+
+        font-size: 60px;
+        width: 400;
+        height: auto;
+        background-color: black;
+        padding: 150px 161px;;
+        color: white;
+    }
+
+    .banner p{
+        font-family: "Big Shoulders Stencil Display";
+    
+        font-size: 60px;
+        width: 400;
+        height: auto;
+        background-color: black;
+        padding: 150px 113px;
+        color: white;
+    }
+    
+    .banner a{
+        content: url(https://i.imgur.com/g5RNyZr.jpg) !important;
+        width: 100%;
+        height: auto;
+    }
+    
+    .banner{
+    
+        display: flex;
+        width: 375px;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        border-bottom: 8px double black;
+        
+    }
+    
+    .allshop.div{
+        margin-top: 60px;
+    }
+    
+    .allshop{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:1440px) and (min-width: 1200px){
+    
+    /*Introduction*/
+    .intro h1{
+    
+        color: white;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        float: left;
+        margin:  20px 0px 0px 20px ;
+        background-color: black;
+        padding: 198px 90px;
+        text-align: center;
+
+
+        
+    }
+
+    .intro a{
+        
+        content: url(https://i.imgur.com/ZYk36ca.jpg) !important;
+       
+        width: 800px;
+        height: 455px;
+        margin: 20px 20px 0px 0px;
+        
+    
+    }
+    main p{
+        font-size: 15px;
+        width: 300px;
+        font-family: "Raleway";
+        text-align: center;
+        margin-bottom: 30px ;
+       
+        
+    
+    }
+    
+    main h2{
+        font-size: 20px;
+        width: 90px;
+        height: 30px;
+        font-family: "Raleway";
+        margin: 30px;
+        
+        
+        
+    
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-items: center;
+        height: 270px;
+        width: 1440px;
+        
+        
+        
+    }
+
+    /*Tours*/
+
+    #button1{
+        margin: 0px 0px 0px 400px;
+    }
+    
+    #button2{
+        margin: 0px 0px 0px 283px;
+    }
+    
+    #button3{
+        margin: 0px 0px 0px 283px;
+    }
+    
+    #button4{
+        margin: 0px 0px 0px 195px;
+        
+    }
+
+    /*Photos*/
+    .showcase{
+        height: 852px;
+        width: 1440px;
+        margin: 40px 0px 0px 70px;
+        
+    }
+
+    .instagram{
+        height: 940px;
+        width: 100px;
+
+    }
+
+    div #rectangle{
+        height: 900px ;
+        width: 8px;
+        background-color: #F85FFE;
+    }
+
+    /*Videos*/
+    .embed iframe{
+        margin: 30px 30px 0px 0px;
+        width: 600px;
+        height: 400px;
+        align-items: center;
+        border: 10px double rgb(31, 31, 31)
+    }
+
+    .header{
+        margin: 130px 90px 0px 0px;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Merchandise*/
+    .banner img{
+        content: url(https://i.imgur.com/OPwlC79.jpg) !important;
+        width: 800px;
+        height: auto;
+    }
+
+    .banner h1{
+        padding: 150px 125px;
+
+    }
+
+    .banner p{
+        padding: 150px 93.5px;
+    }
+
+    .banner{
+        width: 1440px;
+    }
+    
+    
+
+
+}
+
+@media only screen and (max-width:1024px) and (min-width:800px) {
+
+    /*Intoduction*/
+    .intro h1{
+    
+        color: white;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        float: left;
+        margin:  110px 0px 0px 20px ;
+        background-color: black;
+        padding: 125px 10px;
+        text-align: center;
+    }
+
+    .intro a{
+        
+        content: url(https://i.imgur.com/ZYk36ca.jpg) !important;
+       
+        width: 550px;
+        height: auto;
+        margin: 110px 20px 0px 0px;
+        
+    
+    }
+    main p{
+        font-size: 15px;
+        width: 400px;
+        font-family: "Raleway";
+        text-align: center;
+        margin-bottom: 30px ;
+       
+        
+    
+    }
+    
+    main h2{
+        font-size: 20px;
+        width: 90px;
+        height: 30px;
+        font-family: "Raleway";
+        margin: 30px;
+        
+        
+        
+    
+    }
+    
+    main{
+        margin: 30px 0px 0px 0px;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-items: center;
+        height: 270px;
+        width: 1024px;
+        
+        
+        
+        
+    }
+
+    /*Tours*/
+    .tour-info h1{
+        display: inline-block;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        margin: 50px 0px 0px 0px;
+        padding: 50px;
+        background-color: transparent;
+    }
+    
+    
+    .tour-info p{
+        display: inline-block;
+        font-family: "Anton";
+        font-size: 30px;
+        margin: 50px 0px 0px 0px;
+        padding: 50px;
+        background-color: transparent;
+    }
+
+    #button1{
+        margin: 0px 0px 0px 400px;
+    }
+    
+    #button2{
+        margin: 0px 0px 0px 283px;
+    }
+    
+    #button3{
+        margin: 0px 0px 0px 283px;
+    }
+    
+    #button4{
+        margin: 0px 0px 0px 197px;
+        
+    }
+
+    /*Photos*/
+
+    .showcase{
+        height: 852px;
+        width: 1000px;
+        margin: 40px 0px 0px 20px;
+        
+    }
+
+    .instagram{
+        height: 2030px;
+        width: 100px;
+
+    }
+
+    div #rectangle{
+        height: 2020px ;
+        width: 8px;
+        background-color: #F85FFE;
+    }
+
+    /*Videos*/
+    .embed iframe{
+        align-items: center;
+        margin: 100px 20px 0px 0px;
+        width: 400px;
+        height: 300px;
+        border: 10px double rgb(31, 31, 31)
+    }
+    
+    .header{
+        margin: 130px 90px 0px 0px;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Merchandise*/
+    .banner img{
+        content: url(https://i.imgur.com/OPwlC79.jpg) !important;
+        width: 600px;
+        height: auto;
+    }
+
+    .banner h1{
+        padding: 150px 70px;
+
+    }
+
+    .banner p{
+        padding: 150px 40.5px;
+    }
+
+    .banner{
+        width: 1024px;
+    }
+
+    .allshop{
+        justify-content: space-between ;
+    }
+}
