@@ -870,7 +870,7 @@ div #rectangle{
 
 
 @media only screen and (max-width:1440px) and (min-width: 1200px){
-    /* Resizing for laptops*/
+    /* Resizing for  large laptops*/
     /*Introduction*/
     .intro h1{
     
@@ -969,7 +969,7 @@ div #rectangle{
     /*Photos*/
     .showcase{
         height: 852px;
-        width: 1440px;
+        width: 1370px;
         margin: 40px 0px 0px 70px;
         
     }
@@ -977,6 +977,7 @@ div #rectangle{
     .instagram{
         height: 940px;
         width: 100px;
+        margin-left: 100px;
 
     }
 
