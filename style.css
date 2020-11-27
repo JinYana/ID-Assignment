@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+
+/*navigation bar*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -64,7 +72,7 @@ header{
 }
 
 
-
+/*Introduction*/
 
 .intro h1{
     
@@ -121,11 +129,213 @@ main{
     width: 1878px;
 }
 
-@media only screen and (max-width:620px) and (max-width:620px) {
+/*Tours*/
+.tour-info h1{
+    display: inline-block;
+    font-family: "Big Shoulders Stencil Display";
+    font-size: 50px;
+    margin: 50px 0px 0px 250px;
+    padding: 50px;
+    background-color: transparent;
+}
+
+
+.tour-info p{
+    display: inline-block;
+    font-family: "Anton";
+    font-size: 30px;
+    margin: 50px 0px 0px 250px;
+    padding: 50px;
+    background-color: transparent;
+    
+}
+
+.bg-image{
+    background-image: url(https://i.imgur.com/87vNA7g.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    filter: blur(4px);
+  
+    
+    
+}
+
+.bg-text {
+    background-color: rgba(0, 0, 0, 0.37); 
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway";
+    font-size: 30px;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 2;
+    width: 80%;
+    padding: 20px; 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+
+.tour-info .ticket{
+    display: inline;
+    font-size: 16px;
+    height: 30px;
+    width: 150px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000000;
+    border-radius: 4px ;
+    font-family: "Josefin Slab";
+    
+
+}
+#button1{
+    margin: 0px 0px 0px 700px;
+}
+
+#button2{
+    margin: 0px 0px 0px 580px;
+}
+
+#button3{
+    margin: 0px 0px 0px 580px;
+}
+
+#button4{
+    margin: 0px 0px 0px 493px;
+}
+
+/* Photos*/
+
+.showcase{
+    height: 600px;
+    width: 1600px;
+    margin: 80px 0px 0px 70px;
+    
+}
+
+.showcase a{
+    display: inline-block;
+    margin: 0px 0px 80px 70px;
+
+    
+    
+}
+
+div .appname{
+    font-family:"PT Sans" ;
+    transform: rotate(90deg);
+    height: 40px;
+    font-size: 32px;
+    
+    
+}
+
+div #rectangle{
+  height: 584px ;
+  width: 8px;
+  background-color: #F85FFE;
+  
+}
+
+.appname:link{
+    color: #000000; 
+    text-decoration: none
+
+}
+.appname:visited{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.appname:hover{
+    color: #F85FFE;
+    transition: 0.5s;
+}
+
+
+.instagram{
+    
+    height: 700px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    margin: 100px 100px 0px 0px;
+    
+    
+    
+
+}
+
+
+/*Videos*/
+.embed{
+    margin: 40px 0px 0px 100px;
+
+}
+.embed iframe{
+    margin: 0px 60px 0px 0px;
+    border: 8px double rgb(31, 31, 31)
+}
+
+#rectangle1{
+    height: 8px ;
+    width: 820px;
+    background-color: #F52F2F;
+    margin: 20px;
+}
+
+.channelname{
+
+    font-family:"PT Sans" ;
+    height: 40px;
+    width: 135px;
+    font-size: 32px;
+   
+}
+
+#rectangle2{
+    height: 8px ;
+    width: 820px;
+    background-color: #F52F2F;
+    margin: 20px;
+}
+
+.header{
+    margin: 110px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.channelname:link{
+    color: #000000; 
+    text-decoration: none
+
+}
+.channelname:visited{
+    color: #000000; 
+    text-decoration: none
+
+}
+
+.channelname:hover{
+    color: #F52F2F;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width:620px) {
     /* For mobile phones: */
 
 
-
+    /*navigation bar*/
     header{
         display: flex;
         flex-direction: column;
@@ -169,15 +379,7 @@ main{
         
     }
 
-    header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-bottom: 3px solid black ;
-        width: 320px;
-        height: 120px;
-        
-    }
+    /*Introduction*/
 
     .intro h1{
     
@@ -234,16 +436,198 @@ main{
         width: 320px;
     }
 
-  
+
+
+    /*Tours*/
+    .tour-info p {
+        display: inline-block;
+        font-family: "Anton";
+        font-size: 30px;
+        background-color: transparent;
+        width: 320px;
+        
+        margin: auto;
+        
+    }
+
+    .tour-info h1{
+        display: inline-block;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        margin: auto;
+        padding: 50px;
+        background-color: transparent;
+        width: 320;
+    }
+
+
+
+    .tour-info .ticket{
+        display: block;
+        font-size: 16px;
+        height: 30px;
+        width: 150px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: white; 
+        color: black; 
+        border: 2px solid #000000;
+        border-radius: 4px ;
+        font-family: "Josefin Slab";
+        
+        
+        
+        
+    }
+
+    #button1{
+        margin: auto;
+    }
+    
+    #button2{
+        margin: auto;
+    }
+    
+    #button3{
+        margin: auto;
+    }
+    
+    #button4{
+        margin: auto;
+    }
+
+
+    /*Photos*/
+    .showcase{
+        display: flex;
+        height: 852px;
+        width: 375px;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+
+    .showcase .image1{
+        content: url(https://i.imgur.com/O5jiNoZ.jpg) !important;
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+
+    }
+
+    .showcase .image2{
+        content: url(https://i.imgur.com/ApN6FWo.png) !important;
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+    }
+
+    .showcase .image3{
+        content: url(https://i.imgur.com/4qqUvKK.jpg) !important;
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+    }
+
+    .showcase .image4{
+        content: url(https://i.imgur.com/YPxMMoE.jpg) !important;
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+    }
+
+    .showcase .image5{
+        content: url(https://i.imgur.com/Rbr6lBK.jpg) !important;
+        
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+    }
+
+    .showcase .image6{
+        content: url(https://i.imgur.com/Tn0duV7.jpg) !important;
+        width: 375px;
+        height: auto;
+        margin: 20px auto ;
+    }
+    
+    div .appname{
+        font-family:"PT Sans" ;
+        transform: rotate(0deg);
+        height: 40px;
+        font-size: 32px;
+        
+        
+    }
+    
+    div #rectangle{
+      height: 8px ;
+      width: 1500px;
+      background-color: #F85FFE;
+      
+    }
+    
+    .appname:link{
+        color: #000000; 
+        text-decoration: none
+    
+    }
+    .appname:visited{
+        color: #000000; 
+        text-decoration: none
+    
+    }
+    
+    .appname:hover{
+        color: #F85FFE;
+        transition: 0.5s;
+    }
+    
+    
+    .instagram{
+        margin: auto;
+        height: 100px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /*Videos*/
+    .embed{
+        margin: 40px 0px 0px 0px;
+    
+    }
+
+    .embed iframe{
+        margin: 0px 0px 30px 0px;
+        width: 375px;
+        height: 200px;
+        border: 10px double rgb(31, 31, 31)
+    }
+
+    .header{
+        margin: 30px;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+    }
+}
 
 
     
-        
+    
 
 
-}
+  
+
+
+
+
 
 @media only screen and (max-width:1440px) and (min-width: 1300px){
+    
+    /*Introduction*/
     .intro h1{
     
         color: white;
@@ -254,6 +638,9 @@ main{
         background-color: black;
         padding: 198px 90px;
         text-align: center;
+
+
+        
     }
 
     .intro a{
@@ -301,64 +688,203 @@ main{
         
     }
 
-    @media only screen and (max-width:1024px) and (min-width:999px) {
-        .intro h1{
-        
-            color: white;
-            font-family: "Big Shoulders Stencil Display";
-            font-size: 50px;
-            float: left;
-            margin:  110px 0px 0px 20px ;
-            background-color: black;
-            padding: 125px 10px;
-            text-align: center;
-        }
+    /*Tours*/
+
+    #button1{
+        margin: 0px 0px 0px 400px;
+    }
     
-        .intro a{
-            
-            content: url(https://i.imgur.com/ZYk36ca.jpg) !important;
-           
-            width: 550px;
-            height: auto;
-            margin: 110px 20px 0px 0px;
-            
+    #button2{
+        margin: 0px 0px 0px 283px;
+    }
+    
+    #button3{
+        margin: 0px 0px 0px 283px;
+    }
+    
+    #button4{
+        margin: 0px 0px 0px 195px;
         
-        }
-        main p{
-            font-size: 15px;
-            width: 400px;
-            font-family: "Raleway";
-            text-align: center;
-            margin-bottom: 30px ;
-           
-            
+    }
+
+    /*Photos*/
+    .showcase{
+        height: 852px;
+        width: 1440px;
+        margin: 40px 0px 0px 70px;
         
-        }
-        
-        main h2{
-            font-size: 20px;
-            width: 90px;
-            height: 30px;
-            font-family: "Raleway";
-            margin: 30px;
-            
-            
-            
-        
-        }
-        
-        main{
-            margin: 30px 0px 0px 0px;
-            display: flex;
-            flex-direction: column ;
-            align-items: center;
-            justify-items: center;
-            height: 270px;
-            width: 1024px;
-            
-            
-            
-            
-        }
+    }
+
+    .instagram{
+        height: 940px;
+        width: 100px;
+
+    }
+
+    div #rectangle{
+        height: 900px ;
+        width: 8px;
+        background-color: #F85FFE;
+    }
+
+    /*Videos*/
+    .embed iframe{
+        margin: 30px 30px 0px 0px;
+        width: 600px;
+        height: 400px;
+        align-items: center;
+        border: 10px double rgb(31, 31, 31)
+    }
+
+    .header{
+        margin: 130px 90px 0px 0px;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
+
+@media only screen and (max-width:1024px) and (min-width:800px) {
+
+    /*Intoduction*/
+    .intro h1{
+    
+        color: white;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        float: left;
+        margin:  110px 0px 0px 20px ;
+        background-color: black;
+        padding: 125px 10px;
+        text-align: center;
+    }
+
+    .intro a{
+        
+        content: url(https://i.imgur.com/ZYk36ca.jpg) !important;
+       
+        width: 550px;
+        height: auto;
+        margin: 110px 20px 0px 0px;
+        
+    
+    }
+    main p{
+        font-size: 15px;
+        width: 400px;
+        font-family: "Raleway";
+        text-align: center;
+        margin-bottom: 30px ;
+       
+        
+    
+    }
+    
+    main h2{
+        font-size: 20px;
+        width: 90px;
+        height: 30px;
+        font-family: "Raleway";
+        margin: 30px;
+        
+        
+        
+    
+    }
+    
+    main{
+        margin: 30px 0px 0px 0px;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-items: center;
+        height: 270px;
+        width: 1024px;
+        
+        
+        
+        
+    }
+
+    /*Tours*/
+    .tour-info h1{
+        display: inline-block;
+        font-family: "Big Shoulders Stencil Display";
+        font-size: 50px;
+        margin: 50px 0px 0px 0px;
+        padding: 50px;
+        background-color: transparent;
+    }
+    
+    
+    .tour-info p{
+        display: inline-block;
+        font-family: "Anton";
+        font-size: 30px;
+        margin: 50px 0px 0px 0px;
+        padding: 50px;
+        background-color: transparent;
+    }
+
+    #button1{
+        margin: 0px 0px 0px 400px;
+    }
+    
+    #button2{
+        margin: 0px 0px 0px 283px;
+    }
+    
+    #button3{
+        margin: 0px 0px 0px 283px;
+    }
+    
+    #button4{
+        margin: 0px 0px 0px 197px;
+        
+    }
+
+    /*Photos*/
+
+    .showcase{
+        height: 852px;
+        width: 1000px;
+        margin: 40px 0px 0px 20px;
+        
+    }
+
+    .instagram{
+        height: 2030px;
+        width: 100px;
+
+    }
+
+    div #rectangle{
+        height: 2020px ;
+        width: 8px;
+        background-color: #F85FFE;
+    }
+
+    /*Videos*/
+    .embed iframe{
+        align-items: center;
+        margin: 100px 20px 0px 0px;
+        width: 400px;
+        height: 300px;
+        border: 10px double rgb(31, 31, 31)
+    }
+    
+    .header{
+        margin: 130px 90px 0px 0px;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+
+
+
